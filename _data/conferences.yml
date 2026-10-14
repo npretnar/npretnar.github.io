@@ -1,0 +1,118 @@
+# Conferences page.
+#
+# upcoming: shown as cards. "program" is Markdown, so links work.
+# past: grouped by year, newest first. Each title links to its program.
+
+upcoming:
+  - title: 5th Annual Junior Workshop in Macroeconomics
+    dates: October 30–31, 2026
+    location: Santa Barbara, CA, USA
+    coorganizers: Job Boerma (University of Wisconsin, Madison), Paolo Martellini (NYU, Stern)
+    program: >-
+      The conference program will be released in October. Conference details
+      can be found
+      [here](https://laef.ucsb.edu/events/5th-annual-junior-workshop-macroeconomics).
+
+  - title: 2nd LAEF-HKU Joint Conference on Growth and Inequality
+    dates: December 4–5, 2026
+    location: Hong Kong
+    coorganizers: >-
+      Xiaodong Zhu (HKU), Yueyuan Ma (UCSB), Xiaomei Sui (HKU), Lichen Zhang
+      (HKU), Anson Zhou (HKU), Uta Schoenberg (HKU), Jinglun Yao (HKU), Simon
+      Margolin (UCSB), Laura Murphy (UCSB)
+    program: >-
+      The submission deadline has passed; decision notifications have been
+      issued as of September 30, 2026.
+
+  - title: 6th Labor Markets and Macroeconomic Outcomes
+    dates: April 16–17, 2027
+    location: Santa Barbara, CA, USA
+    coorganizers: >-
+      Adam Blandin (Vanderbilt University), Kathleen McKiernan (Vanderbilt
+      University), Yueyuan Ma (UCSB), Simon Margolin (UCSB), Laura Murphy (UCSB)
+    program: >-
+      The call for papers is available by [clicking
+      here](https://editorialexpress.com/conference/6thLAEFLabor/), and is open
+      until December 20, 2026.
+
+  - title: 15th Advances in Macro-Finance, Tepper-LAEF Conference
+    dates: April 23–24, 2027
+    location: Pittsburgh, PA, USA
+    coorganizers: >-
+      Lars-Alexander Kuehn (CMU, Tepper), Finn Kydland (UCSB), Simon Mayer
+      (CMU, Tepper), Liyan Shi (CMU, Tepper), Ariel Zetlin-Jones (CMU, Tepper),
+      Shengxing Zhang (CMU, Tepper)
+    program: The call for papers will open in winter of 2026/2027.
+
+past:
+  - year: 2026
+    events:
+      - title: Growth, Inequality, and Macro Development
+        url: https://laef.ucsb.edu/events/growth-inequality-and-macro-development
+      - title: XXIX Workshop on Dynamic Macroeconomics
+        url: https://laef.ucsb.edu/sites/default/files/2026-05/WDM_ProgramXXIX.pdf
+      - title: Demographics in the 21st Century
+        url: https://laef.ucsb.edu/events/demographics-21st-century
+      - title: Artificial Intelligence and the Macroeconomy
+        url: https://laef.ucsb.edu/events/artificial-intelligence-and-macroeconomy
+      - title: 5th Labor Markets and Macroeconomic Outcomes
+        url: https://laef.ucsb.edu/events/5th-labor-markets-and-macroeconomic-outcomes
+      - title: Market Power
+        url: https://laef.ucsb.edu/events/market-power
+
+  - year: 2025
+    events:
+      - title: LAEF-HKU Joint Conference on Growth and Inequality
+        url: https://laef.ucsb.edu/events/laef-hku-joint-conference-growth-and-inequality
+      - title: 14th Advances in Macro-Finance, Tepper-LAEF Conference
+        url: https://laef.ucsb.edu/sites/default/files/2025-10/Program%20Tepper%20LAEF%202025%20%283%29.pdf
+      - title: 4th Annual Junior Workshop in Macroeconomics
+        url: https://drive.google.com/file/d/12rqcnUOcihWYt8AEhQ5-4XiGD1d1-ndg/view?usp=sharing
+      - title: XXVIII Workshop on Dynamic Macroeconomics
+        url: https://workshop.webs.uvigo.es/pdfs/WDM_ProgramXXVIII.pdf
+      - title: Finn's Skål
+        url: https://drive.google.com/file/d/1-bF3tcQTGp3gBt18eBGOXOVRyMOeTEP5/view?usp=share_link
+      - title: 4th Labor Markets and Macroeconomic Outcomes
+        url: https://drive.google.com/file/d/1uamut1O7JU3sztQ8itHmC0ZELI7dQjKT/view?usp=share_link
+      - title: Demographic Heterogeneity in Aggregate Economics
+        url: https://drive.google.com/file/d/1XHLxivuPBz6xA08fItFJocRPUtUwqmRB/view?usp=share_link
+
+  - year: 2024
+    events:
+      - title: UConn Leafy LAEF Conference
+        url: https://drive.google.com/file/d/1LxOw9fNxv8A1CWOhFTFTFUimKLKJE_iZ/view?usp=share_link
+      - title: 3rd Annual Junior Workshop in Macroeconomics
+        url: https://drive.google.com/file/d/147LTkXUkAbr-zYpAaDIcyqJvrLO7frRL/view?usp=share_link
+      - title: XXVII Workshop on Dynamic Macroeconomics in Vigo, Spain
+        url: https://workshop.webs.uvigo.es/pdfs/WDM_ProgramXXVII.pdf
+      - title: "LAEF on the Lakes: UW-Madison/UCSB Macroeconomics Conference"
+        url: https://drive.google.com/file/d/1hKI4nbFIFFq8R76mGWrNH5swtg8FHIin/view?usp=share_link
+      - title: 3rd Labor Markets and Macroeconomic Outcomes
+        url: https://drive.google.com/file/d/1arhfNv6nQKPgLx9EcgfJ8ATkXsIoQ2kW/view?usp=share_link
+
+  - year: 2023
+    events:
+      - title: 2nd Annual Junior Workshop in Macroeconomics
+        url: https://drive.google.com/file/d/1yTMX3uC56oLizKWD5UjfIYT9GTJgLJmj/view?usp=share_link
+      - title: XXVI Workshop on Dynamic Macroeconomics in Vigo, Spain
+        url: https://workshop.webs.uvigo.es/pdfs/WDM_ProgramXXVI.pdf
+      - title: 2nd Labor Markets and Macroeconomic Outcomes
+        url: https://drive.google.com/file/d/1VEIN-4lT0f871wMkjlrQHUHnsrlZ8dVG/view?usp=share_link
+      - title: Racial Inequality in Macroeconomics
+        url: https://drive.google.com/file/d/1EUUsKrCvceYeZdaFyax8KQak02fPNHA7/view?usp=share_link
+
+  - year: 2022
+    events:
+      - title: 1st Annual Junior Workshop in Macroeconomics
+        url: https://drive.google.com/file/d/1EkvzpBthHRLepPE6YrAJPhumDPyNn2q4/view?usp=share_link
+      - title: Growth, Development, and Structural Transformation
+        url: https://drive.google.com/file/d/1wXRMOvQfcd3zmxEVIaIRXqepZ6eS-hdL/view?usp=share_link
+      - title: Conference on Aging and Healthcare in the Macroeconomy
+        url: https://drive.google.com/file/d/1XQcP4B4KI1-6NWmZkBKz2MULtPjuh3R-/view?usp=share_link
+      - title: Labor Markets and Macroeconomic Outcomes
+        url: https://drive.google.com/file/d/1Psy_1dSq8_eoypbS1vcjAmQnCzDVsmL6/view?usp=share_link
+
+  - year: 2021
+    events:
+      - title: Welfare and Inequality in the 21st Century
+        url: https://drive.google.com/file/d/1CdR3A3GoVnOt5d1s0dqMFxPmM2K-prcB/view?usp=share_link

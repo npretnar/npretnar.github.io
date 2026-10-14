@@ -1,0 +1,44 @@
+---
+layout: default
+title: Conferences Organized
+permalink: /conferences-organized/
+---
+{%- assign c = site.data.conferences -%}
+<header class="page-head">
+  <h1>Conferences Organized</h1>
+</header>
+
+<p class="lede">This is a list of conferences/workshops I am organizing/co-organizing or have organized/co-organized at <a href="https://laef.ucsb.edu">UCSB's Laboratory for Aggregate Economics and Finance</a>. Conferences for which I simply secured funding in my capacity as Assistant Director of LAEF but for which I played no role in the selection of papers are not included amongst this list. In all of the conferences listed below, I played a role in selecting papers and attendees.</p>
+
+<section class="list-section">
+  <h2>Upcoming</h2>
+  <div class="cards">
+    {%- for e in c.upcoming %}
+    <article class="card">
+      <h3>{{ e.title }}</h3>
+      <p class="card-when">{{ e.dates }} · {{ e.location }}</p>
+      <dl class="p-details">
+        <dt>Co-organizers</dt>
+        <dd>{{ e.coorganizers }}</dd>
+        <dt>Program</dt>
+        <dd>{{ e.program | markdownify | remove: '<p>' | remove: '</p>' }}</dd>
+      </dl>
+    </article>
+    {%- endfor %}
+  </div>
+</section>
+
+<section class="list-section">
+  <h2>Past</h2>
+  <p class="note">Conferences/workshops I directly co-organized or for which I served on the scientific committee. Titles link to the conference programs.</p>
+  {%- for y in c.past %}
+  <div class="year-group">
+    <h3 class="year">{{ y.year }}</h3>
+    <ul class="plain">
+      {%- for e in y.events %}
+      <li><a href="{{ e.url }}">{{ e.title }}</a></li>
+      {%- endfor %}
+    </ul>
+  </div>
+  {%- endfor %}
+</section>

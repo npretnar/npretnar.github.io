@@ -1,0 +1,31 @@
+title: Nick Pretnar
+description: >-
+  Economist working on growth, technological development, structural change,
+  market structure, household finance, and consumer behavior.
+url: "https://www.npretnar.com"
+baseurl: ""
+lang: en
+
+email: npretnar@ucsb.edu
+
+# Top navigation, in order. URLs match the old Google Sites paths so
+# existing links keep working.
+nav:
+  - title: Research
+    url: /research/
+  - title: Teaching
+    url: /teaching/
+  - title: Conferences
+    url: /conferences-organized/
+  - title: Media
+    url: /media/
+
+markdown: kramdown
+kramdown:
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

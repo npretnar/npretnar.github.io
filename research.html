@@ -1,0 +1,35 @@
+---
+layout: default
+title: Research
+permalink: /research/
+---
+{%- assign r = site.data.research -%}
+<header class="page-head">
+  <h1>Research</h1>
+  <div class="toolbar" hidden>
+    <button type="button" data-toggle-all="open">Expand all</button>
+    <button type="button" data-toggle-all="close">Collapse all</button>
+  </div>
+</header>
+
+{%- if r.upcoming %}
+<aside class="callout">
+  <span class="callout-label">Upcoming seminars &amp; conferences</span>
+  <p>{{ r.upcoming }}</p>
+</aside>
+{%- endif %}
+
+<nav class="toc" aria-label="Sections">
+  {%- for s in r.sections %}
+  <a href="#{{ s.id }}">{{ s.title }}</a>
+  {%- endfor %}
+</nav>
+
+{%- for s in r.sections %}
+<section class="paper-section" id="{{ s.id }}">
+  <h2>{{ s.title }}</h2>
+  {%- for p in s.papers %}
+  {% include paper.html paper=p %}
+  {%- endfor %}
+</section>
+{%- endfor %}

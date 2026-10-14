@@ -1,0 +1,17 @@
+# Shown on the home page under your name, and as the link buttons.
+
+affiliation: >-
+  Laboratory for Aggregate Economics and Finance, UC Santa Barbara ·
+  University of Austin (UATX)
+
+links:
+  - label: Email
+    url: mailto:npretnar@ucsb.edu
+  - label: CV
+    url: /cv.pdf
+  - label: Google Scholar
+    url: https://scholar.google.com/citations?hl=en&user=L0zpasEAAAAJ
+  - label: SSRN
+    url: https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2321433
+  - label: RePEc
+    url: https://ideas.repec.org/f/ppr424.html

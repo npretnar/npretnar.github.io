@@ -1,0 +1,539 @@
+# Research page content.
+#
+# Sections appear in the order listed; papers appear in the order listed
+# within each section. To move a paper (e.g. R&R -> accepted), cut its block
+# and paste it into the other section.
+#
+# Paper fields (all optional except title):
+#   title       Paper title (no trailing period)
+#   year        Year shown in the collapsed row
+#   month       Shown before the year, e.g. "October"
+#   coauthors   List of coauthors, in order. Leave out for solo work.
+#   status      e.g. "Revise and Resubmit", "Under Review", "Presenting"
+#   journal     Publishing journal, or target journal for R&Rs / submissions
+#   volume, issue
+#   url         Link to the paper itself; shown as "Paper" in the collapsed row
+#   working_paper  Link to a working-paper version; shown as "Working Paper"
+#               next to "Paper" (e.g. when the journal version is paywalled)
+#   abstract    Markdown. Use ">-" and indent the text below it.
+#   talks       Presentations, keyed by year (newest first)
+#   press, notes  Markdown
+#   links       List of {label, url} for appendices, replication files, slides
+#
+# Everything except title, coauthors, status/journal and year is hidden in the
+# drop-down until the visitor expands the paper.
+
+upcoming: >-
+  University of Osaka; Concordia University; University of Montreal;
+  The Chinese University of Hong Kong, Shenzhen; GRIPS, Tokyo; LACEA, Lima,
+  Peru; Indiana University, Kelley BEPP
+
+sections:
+  - title: Publications and Accepted Papers
+    id: publications
+    papers:
+      - title: Health Sector Structural Change
+        coauthors: [Maria Feldman]
+        journal: "AEJ: Macroeconomics"
+        volume: 18
+        issue: 4
+        month: October
+        year: 2026
+        url: https://www.aeaweb.org/articles?id=10.1257/mac.20240013&&from=f
+        working_paper: /papers/health-sector-structural-change.pdf
+        talks:
+          2023: >-
+            University of Bristol, UK; University of Manchester, UK; SEA
+            Meetings, New Orleans; Goethe University, Frankfurt, Germany;
+            University of Wuerzburg, Germany; UCSB, LAEF 2nd Labor Markets and
+            Macroeconomic Outcomes Conference; FRB, Cleveland
+        notes: >-
+          Previous versions were circulated under the titles *The Causal
+          Factors Driving the Rise in Health Services Prices* and *The Causal
+          Factors Driving the Rise in U.S. Health-services Prices*.
+        links:
+          - label: Replication package (GitHub)
+            url: https://github.com/npretnar/health-sector-structural-change.git
+          - label: Technical appendix
+            url: /papers/health-sector-structural-change-appendix.pdf
+
+      - title: Time Use and Heterogeneous Markups
+        coauthors: [Brian C. Albrecht, Thomas Phelan]
+        journal: Journal of Economic Theory
+        volume: 236
+        month: September
+        year: 2026
+        url: https://www.sciencedirect.com/science/article/pii/S0022053126000815
+        working_paper: /papers/time-use-and-heterogeneous-markups.pdf
+        talks:
+          2026: Yonsei University, Seoul
+        notes: >-
+          Previous versions of this project were presented and circulated
+          under the title *Time Use and the Efficiency of Heterogeneous
+          Markups*.
+
+      - title: "Subsidies for close substitutes: Aggregate demand for residential solar electricity"
+        coauthors: [Alexander Abajian]
+        journal: European Economic Review
+        volume: 170
+        month: November
+        year: 2024
+        url: https://www.sciencedirect.com/science/article/pii/S0014292124001776
+        talks:
+          2022: University at Albany (SUNY); SED, Madison, WI
+        links:
+          - label: Data files (Zenodo)
+            url: https://zenodo.org/records/12749922
+          - label: Data scripts and code (GitHub)
+            url: https://github.com/xabajian/AP_Solar
+          - label: Technical appendix
+            url: https://ars.els-cdn.com/content/image/1-s2.0-S0014292124001776-mmc1.pdf
+
+  - title: New Work (incl. R&R's)
+    id: new-work
+    papers:
+      - title: Elder Care in General Equilibrium
+        coauthors: [Finn Kydland, Tonya Kydland]
+        status: Presenting
+        year: 2026
+        abstract: >-
+          Elder-care demand depends on aging and dependency shocks; over
+          1990--2020, falling dependency nearly offset U.S. aging. With formal
+          markets and informal transfers supplying care, demand changes affect
+          each channel differently. We estimate aggregate substitution
+          elasticities in a two-sector general-equilibrium overlapping-generations
+          model: formal and informal care are weak complements, care and other
+          consumption strong ones, so formal care's spending share rises with
+          its price. Negative nursing TFP growth, not demography, raised formal
+          care's relative price, drew inputs into nursing, and shifted care
+          toward informal caregivers. Concerns that aging slows growth are
+          misplaced if either strong-sector technology grows robustly or
+          natality improves.
+        talks:
+          2026: >-
+            Hitotsubashi University; The University of Hong Kong (HKU); Peking
+            University HSBC Business School, Shenzhen
+          2019: SNDE, Dallas Fed; XXIV Workshop on Dynamic Macro, Vigo Spain
+          2018: UCSB; University of Missouri; Midwest Macro, Madison, WI; SED, Mexico City
+        press: >-
+          [Benefits Pro](https://www.benefitspro.com/2019/02/11/aging-population-is-an-economic-double-whammy-412-77713/?slreturn=20200528211934);
+          [Who Will Care for All the Old People?](https://voxeu.org/content/live-long-and-prosper-economics-ageing-populations)
+          VoxEU in: *Live Long and Prosper? The Economics of Ageing
+          Populations* (2019); NPR's The Confluence, 90.5 WESA, Pittsburgh
+          (June 30, 2023).
+        notes: >-
+          Previous version is [NBER Working Paper
+          \#25498](/papers/costs-and-benefits-of-caring-nber-w25498.pdf),
+          entitled *The Costs and Benefits of Caring: Aggregate Burdens of an
+          Aging Population*.
+
+      - title: Unbalanced Growth Across Sectors and Space
+        coauthors: [Kausthub Satluri]
+        status: Presenting
+        year: 2026
+        abstract: >-
+          Following a version of the sectoral definitions in Fang and
+          Herrendorf (2021), we examine how United States economic activity by
+          broad sector varies across two different partitions of the spatial
+          environment. We look at the composition of aggregate income by sector
+          for spatial partitions that distinguish between places based on both
+          commuting zones and population density. Our findings inspire a simple
+          yet insightful growth accounting exercise from which a decomposition
+          of aggregate output growth and output per-capita growth can be made
+          as a function of place/sector pairs. Despite income per capita
+          growing fastest in rural areas since 2000, the rural population has
+          not grown fast enough to keep up with more urbanized areas, reducing
+          rural areas' share of aggregate output. Rural growth has been mostly
+          driven by low-skilled industries, like manufacturing and low-skilled
+          services, despite high-skilled services income growing fastest
+          amongst all rural sectors; however, high-skilled services comprise
+          such a small fraction of rural economic activity that even fast
+          growth rates do not lead to significant catch up rates for rural
+          areas relative to urban ones. High-skilled services are the fastest
+          growing sector in the economy, contributing to 53% of growth in urban
+          income from 2003-2023 but only 27% of growth in rural income.
+        talks:
+          2026: >-
+            CIRJE, University of Tokyo; LAEF/UConn Growth, Inequality, and Macro
+            Development Conference, Storrs, CT; University of Mohammed VI
+            Polytechnic (Virtual); XI Workshop on Structural Transformation and
+            Macroeconomic Dynamics, Frankfurt am Main, Germany
+        links:
+          - label: Slides
+            url: /papers/unbalanced-growth-across-sectors-and-space-slides.pdf
+
+      - title: A Theory of Long-run Development with Capital
+        coauthors: [Ákos Valentinyi]
+        status: Under Review
+        journal: Journal of Political Economy Macroeconomics
+        year: 2026
+        url: /papers/long-run-development-with-capital.pdf
+        abstract: >-
+          This paper offers a unified framework for understanding long-run
+          growth across the pre-industrial, transitional, and industrial eras.
+          We build a flexible growth model with three factors of production
+          (land, capital, and labor) and two distinct productivities which
+          separately augment land/labor and capital/labor complementarities.
+          The structure generates endogenously variable elasticities of
+          substitution and explains shifts in both factor income shares and
+          aggregate output over an entire time series. Estimated on historical
+          data from England and Wales, the model reconciles multiple growth
+          regimes and provides new insights into the forces that led to
+          industrialization.
+        talks:
+          2026: SED, Athens
+          2025: >-
+            Finn's Skål, IE Tower, Madrid; National University of Singapore;
+            University of Pretoria, South Africa; EUI, Florence, Italy; FRB,
+            St. Louis
+          2024: >-
+            SED, Buenos Aires; EWMES, Palma de Mallorca, Spain; Vanderbilt
+            University; University of Barcelona; MEA Meetings, Chicago
+        notes: >-
+          Previous versions of this project were presented under the titles
+          *Coffee, Tea, and the Industrial Revolution*; *Stimulating Industrial
+          Revolution*; *A Capitalist Theory of Economic Development*; and *One
+          Production Function*.
+
+      - title: Mental Accounting Through Two-stage Budgeting Under Bounded Rationality
+        coauthors: [Christopher Y. Olivola, Alan Montgomery]
+        status: Under Review
+        journal: Journal of Economic Behavior & Organization
+        year: 2026
+        url: /papers/mental-accounting-two-stage-budgeting.pdf
+        abstract: >-
+          We propose a model that generalizes two-stage budgeting to
+          incorporate frictions which induce budgetary stickiness and mental
+          accounting behavior. Inattention limits the fungibility of money
+          across mental accounts, leading to boundedly rational behavior.
+          Financial attentiveness is cognitively costly, so consumers might
+          re-assess only a subset of spending budgets every period. Over- or
+          under-spending affects future budgeting and expenditure decisions. We
+          discipline the model with agent-level weekly expenditure data from
+          low-income consumers and explore its quantitative implications for
+          the degree to which budgeting behavior reflects bounded rationality,
+          as well as the potential consequences of interventions that encourage
+          budgeting discipline. Attentiveness constraints can have a
+          disciplinary effect on finances: under the model's assumptions,
+          relaxing constraints leads some consumers to over-spend and become
+          financially worse off.
+        talks:
+          2025: Indiana University (Kelley Finance)
+          2022: FUR Conference, Ghent, Belgium
+          2021: Columbia University, New York
+          2020: >-
+            INFER (Virtual); NBER-NSF SBIES (Virtual); UCSB, Theory
+            Underground; ARC for Financial Planning, Washington D.C.
+          2019: ACR, Atlanta
+          2017: INFORMS Marketing Science, Los Angeles
+        notes: >-
+          Previous versions of this paper were circulated under the titles
+          *Two-stage Budgeting with Bounded Rationality*, *A Structural Model
+          of Mental Accounting*, and *Two-stage Budgeting Under Mental
+          Accounting*.
+
+      - title: Structural Change with Time to Consume
+        coauthors: [W.L. Bednar]
+        status: Revise and Resubmit
+        journal: International Economic Review
+        year: 2025
+        url: /papers/structural-change-with-time-to-consume.pdf
+        abstract: >-
+          We explore the relationship between household time-use and the
+          long-run rise in the services share of expenditure. Using the
+          American Time Use Survey, we study how households allocate their
+          off-market time between using goods and using services. While
+          relative goods to services market expenditure has declined along the
+          development path, relative off-market time spent using goods versus
+          services has risen. To understand which of rising incomes, declining
+          relative prices, or changing preferences is the primary driver of
+          simultaneous expenditure and time use trends, we estimate a model
+          where consumers have non-separable preferences over market
+          consumption and multiple different off-market activities. We find no
+          role for income effects driving structural change in our preferred
+          specifications. Structural change is almost entirely attributable to
+          both falling relative goods/services prices and the rising relative
+          off-market efficiency of using goods versus services.
+        talks:
+          2024: X Workshop on Structural Transformation and Macroeconomic Dynamics, Cagliari, Italy
+          2023: FRB, Atlanta
+          2022: >-
+            FRB, Philadelphia; Midwest Macro, Dallas, TX; UCSB, LAEF Growth,
+            Development, and Structural Transformation Conference; University of
+            Pittsburgh; University of Wuerzburg, Germany
+          2021: >-
+            NBER-NAS SBIES (Virtual); Vigo Workshop on Dynamic Macro, Vigo
+            Spain; SED, Minneapolis, MN; University of Miami, Florida (Virtual)
+          2020: SNDE, Virtual; University of Miami, Florida (Virtual)
+          2019: UCSB; Midwest Macro, East Lansing, MI; SED, Saint Louis, MO
+          2018: UCSB
+        links:
+          - label: Technical appendices
+            url: /papers/structural-change-with-time-to-consume-appendix.pdf
+
+  - title: Working Papers
+    id: working-papers
+    papers:
+      - title: Measuring Inequality with Consumption Time
+        year: 2025
+        abstract: >-
+          I construct and estimate a model of joint market consumption and
+          off-market time use decisions that allows for heterogeneous
+          complementarities between off-market time and market purchases
+          jointly used in different off-market activities. The model yields
+          both cost-of-living and welfare summary statistics which quantify
+          household dispersion. When accounting for rich preference
+          heterogeneity across consumption activities, dispersion in
+          welfare-based compensating variation is significantly less than wage
+          or expenditure dispersion, but under this measure society is
+          becoming increasingly unequal at almost double the rate implied by
+          wages and spending. Policy implications for the progressivity of
+          labor-income taxes at reducing inequality are addressed.
+        talks:
+          2026: University of the Thai Chamber of Commerce
+          2025: Indiana University (Economics); UNC, Charlotte
+          2024: >-
+            SAEe, Palma de Mallorca, Spain; SEA Meetings, Washington D.C.;
+            University of California, Irvine; FRB, Cleveland; SED, Barcelona
+          2023: >-
+            University of Warwick, UK; FRB, Philadelphia; University of
+            Connecticut; Federal Reserve Board of Governors; FRB, St. Louis;
+            The Australian National University
+          2022: >-
+            Williams College; Southern Methodist University; Stony Brook
+            University (SUNY); Midwest Macro, Logan, UT
+        links:
+          - label: ATUS/CEX/NIPA classification crosswalk
+            url: https://docs.google.com/spreadsheets/d/1dNVbu62PzijdbDSNQw83ANvSkJH3Z4zg/edit?usp=share_link&ouid=103864238705331262948&rtpof=true&sd=true
+
+      - title: Sexual Hegemons and Involuntary Celibates
+        status: Working Model Written; Simple Welfare Results Calculated
+        year: 2026
+        abstract: >-
+          Heterosexual couple formation has fallen in the developed world at
+          the same time that new technologies, such as dating apps, have
+          seemingly reduced search frictions. I study a two-sided
+          directed-search model of dating where agents differ in labor-market
+          productivity and sexual desirability. Men sort on similarity and thus
+          have conditionally non-monotonic preferences for females across
+          types. Female preferences are monotonic in male quality. Without
+          frictions, matching is assortative and male inequality reflects
+          attributes. When the sexes' type distributions differ, surplus types
+          match less often; a surplus of high-type women deepens male
+          inequality. Costly contact makes match rates diverge: women contact
+          desirable men more readily. Unobservable attributes pool male types,
+          so rejecting a man buys a chance of someone better: every woman
+          rejects men below one common cutoff. Were types visible, rejection
+          would only mean waiting for another like him, so none would be
+          excluded. Involuntary celibacy is thus an information problem, while
+          concentration is a turnover problem where a few men dominate matching
+          only if break-ups return them to the market. As contact costs
+          decline women have more options, so they screen harder and marginal
+          men stop matching. Dating platforms thus allow agents to learn who is
+          available from encounters skewed directly by their own choices, so
+          standards drift high. A dating market platform that profits when
+          users keep searching would choose every distortion the model
+          identifies to maximize engagement. Meanwhile, a planner who seeks to
+          minimize male welfare inequality would force negative assortative
+          matching, suggesting the dating-app-driven market equilibrium is
+          inefficient relative to abstract theses from the anthropology
+          literature.
+
+      - title: Retirement Financing and Social Security Solvency in General Equilibrium
+        coauthors: [Santiago Lisa]
+        status: Data Work and Model Computation Ongoing
+        year: 2026
+        abstract: >-
+          We develop an overlapping generations model with two productive
+          sectors, a financial intermediary, and a detailed tax system that
+          distinguishes between realized and unrealized capital gains through
+          cost-basis tracking. This preliminary draft calibrates to the 1975
+          U.S. economy, before modern retirement tax incentives, to study how
+          mandatory retirement contributions and wealth taxation reshape
+          life-cycle savings, labor supply, and Social Security financing.
+          Given the size of the state space, our model solution and
+          computational procedures require modifying the Deep Equilibrium Nets
+          routine of Azinovic, Gaegauf, and Scheidegger (2022) to introduce
+          reinforcement learning to optimize the neural network learning rate.
+          In preliminary simulations we find that introducing 5 percent
+          retirement contributions crowds out taxable savings by 25 percent
+          while modestly raising labor supply. A 10 percent wealth tax on
+          deposits triples savings and increases hours by 27 percent as
+          households work to rebuild eroded wealth, sharply contrasting the
+          behavioral response to realization-based capital gains taxes.
+        notes: >-
+          A preliminary draft can be requested by clicking
+          [here](https://drive.google.com/file/d/1hdIwFBHEnThaf0tUqdoZOg_Drv1_87IF/view?usp=share_link).
+
+      - title: College Football Labor Markets and the Production of Wins
+        year: 2025
+
+      - title: One Production Function
+        coauthors: [Ákos Valentinyi]
+        year: 2025
+        abstract: >-
+          In several quantitative exercises we estimate the stylized
+          production technology of Pretnar and Valentinyi (2025) for countries
+          at various stages of economic development. The fully estimated
+          technology yields a country-specific developmental diagnostic
+          assessment, which can be used to compare the underlying mechanisms
+          driving different countries' macroeconomic growth and glean
+          understanding as to what kinds of country-specific policies could
+          improve growth prospects. Because our technology is more flexible
+          and of a richer structure than a traditional CES production function,
+          it yields more detailed inferences regarding the country-specific
+          macroeconomic transformations associated with aggregate growth.
+          Further, even when macroeconomic data is sparse or poorly measured,
+          we show how Bayesian inference can be used to estimate the aggregate
+          technology in order that inferences can be drawn from its
+          quantitative features. We show that, given assumptions regarding
+          elasticity heterogeneity across countries, otherwise unmeasured
+          values of country-specific capital stocks can be inferred from data
+          through our model's lens.
+        talks:
+          2025: Midwest Macro, FRB, Cleveland
+
+  - title: Works in Progress
+    id: in-progress
+    papers:
+      - title: Real Business Cycles with Non-aligned Expectations
+        coauthors: [Georg Duernecker]
+        status: Model in Development
+        year: 2026
+
+      - title: Assessing Competitive Structure with Disaggregated Sectoral Definitions
+        coauthors: [Marius Gruenewald]
+        status: Data Work Ongoing
+        year: 2025
+        abstract: >-
+          Market definitions are integral in applications involving
+          competitive assessments. Yet, when markets are granular many large,
+          multi-product firms operate in many small markets. Further, the more
+          granular the market definition, often the less competitive markets
+          become on average, since successful firms specialize in successful
+          products (e.g., Coca Cola in the market for soda or Clorox in the
+          market for cleaning products). How does the granularity of market
+          definitions impact inferences regarding the competitive structure of
+          an economy overall? Further, when should product categories be
+          aggregated or dis-aggregated? That is, what do we lose/gain when
+          engaging in aggregation and studying more aggregated markets? The
+          notion of firms' pricing power depends on how demand is defined.
+          Constructing product-type demand aggregates and assessing
+          firm-specific market power for such aggregates changes the assessment
+          of market power compared to when looking at granular, brand-level
+          data. We study these questions using scanner data from European
+          supermarkets, while assessing competition at different levels of
+          product-type and sector classifications.
+
+      - title: Rural Brain Drain Amidst Structural Change
+        status: Model Written; Computational Work Ongoing; Seeking Coauthor(s)
+        year: 2024
+        abstract: >-
+          As the services share of aggregate output in the U.S. has risen, so
+          have high human-capital workers migrated away from rural areas and to
+          cities. Migration patterns are observed despite the fact that the
+          services share of aggregate output in rural areas is similar (and
+          sometimes higher) than the share in urban areas. This is because the
+          mix of service industries which dominate rural economies in the U.S.
+          is generally less productive and requires lower human capital than
+          urban services. Technical change and the human-capital input mix is
+          thus different for rural services versus urban services. I explore
+          how these twin facts about production have contributed to rural brain
+          drain and rural/urban inequality in a multi-sector, multi-region
+          model, where sectors differ by productivities and input/output
+          elasticities and use durable capital and two types of labor (high
+          and low human capital) as inputs. I further endogenize the household
+          decision to acquire education and/or engage in costly migration. The
+          model permits exploration of several questions. First, how have
+          unbalanced technical change across sectors and regions contributed
+          to the geo-spatial distribution of human capital? Second, since
+          migration is costly, the geo-spatial distribution of human capital
+          may be inefficient: what happens to aggregate output (and welfare) if
+          moving costs are subsidized or removed? Third, how much is structural
+          change driven by consumers choosing to take up increasing education?
+
+      - title: New Products, Income Effects, and Growth
+        coauthors: [W.L. Bednar]
+        status: Model Written; Computational Work Ongoing; Seeking Additional Coauthor(s)
+        year: 2023
+        abstract: >-
+          In this paper we explore a Melitz (2003) style model where consumers
+          have preferences over an infinite menu of consumption products, but
+          firms may not have the ability to produce a certain subset of these
+          products profitably because of either high fixed entry costs or high
+          marginal costs. As consumers get richer, they become more particular
+          about the types of products they consume, so that as income increases
+          new markets for new products emerge, leading to growth in output
+          which feeds back into generating further income increases. However,
+          while richer consumers may have more refined tastes which demand a
+          more diverse set of consumption options, in order for a market for
+          these new products to exist, the producing firms must be profitable.
+          Thus, along the growth path, consumers may desire a positive amount
+          of certain product types, yet they may not desire enough for the
+          corresponding production sector to be profitable. This is because
+          firms looking to enter the market face fixed costs associated with
+          starting up production. Fixed costs may vary over time as total
+          productivity increases, so that certain epochs are associated with
+          higher rates of new firm entry than others, which can help drive
+          so-called "growth miracles."
+
+  - title: Dormant Projects
+    id: dormant
+    papers:
+      - title: The Intergenerational Welfare Implications of Disease Contagion
+        year: 2020
+        abstract: >-
+          Using endogenous, age-dependent measures of the value of statistical
+          lives (VSL), this paper examines the demographic implications of
+          recessions driven by disease contagions. Depending on the
+          age-distribution mortality profile of the disease, long-run welfare
+          losses resulting from the recession may outweigh lost VSL's directly
+          attributable to the disease. This is because disease contagions that
+          induce high levels of hospitalization simultaneously impact aggregate
+          output, via a recession caused by social-distancing, and the
+          productivity of health care services. The efficiency of health
+          investment falls driving down life expectancy (LE). VSL's fall both
+          because LE's fall and the marginal value of health care investment
+          falls. Using the Hall and Jones (2007) model of age-specific,
+          endogenous health investment, it is shown that the COVID-19 crisis of
+          2020 will lead to lost welfare for young agents that exceeds VSL's
+          lost from the disease. If COVID-19 had the same age-mortality profile
+          as the 1918 Spanish Flu, where more young agents died,
+          contagion-mitigation policies that cause deep recessions would still
+          be socially optimal since more of the high-valued lives of young
+          people would be saved.
+        talks:
+          2020: Macro-Dev-Trade-Environment Group Meeting, Virtual, Iowa State
+
+      - title: Durables, Non-Durables, and a Structural Test of Fungibility
+        coauthors: [Alan Montgomery, Christopher Y. Olivola]
+        year: 2018
+        url: /papers/durables-non-durables-fungibility.pdf
+        abstract: >-
+          In his 1999 summary of all things mental accounting, Richard Thaler
+          describes one of the primary components of mental accounting as the
+          budgeting of specific utility-providing activities which can depend,
+          but does not have to, on the resources used to fund those activities.
+          The analysis presented in this paper focusses specifically on
+          household expenditure of durable and non-durable goods and the
+          liquidity sources used to fund these different expenditures.
+          Specifically, we exploit a linked dataset of credit and debit card
+          users to examine consumer purchasing patterns of durable and
+          non-durable consumption commodities under both methods of payment.
+          Our findings suggest that on average durable purchases are more
+          sensitive to increases in available credit than non-durable
+          purchases, and most consumers are more likely to increase total
+          consumption due to increases in available credit than increases in
+          available checking account balances. We empirically show that the
+          standard neo-classical consumption/savings model, the equilibrium
+          conditions of which implicitly assume that the household's available
+          resources (liquidity and investments) are perfectly fungible, fails
+          to rationalize our data for the median/modal consumer in our sample.
+          However, our results are rich because we also show that the
+          behavioral distribution of consumers includes both households which
+          treat liquidity as fungible and those that do not. Given the
+          heterogeneity we find, future work should test whether these results
+          would matter on aggregate.
+        talks:
+          2019: ACR, Atlanta; Finance Forum, Madrid
+          2018: Boulder Consumer Finance Conference; BDRM, Harvard; SJDM, New Orleans

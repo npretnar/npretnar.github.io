@@ -1,0 +1,23 @@
+---
+layout: default
+title: Teaching
+permalink: /teaching/
+---
+<header class="page-head">
+  <h1>Teaching</h1>
+</header>
+
+{%- for g in site.data.teaching %}
+<section class="list-section">
+  <h2>{{ g.group }}</h2>
+  <ul class="entries">
+    {%- for c in g.courses %}
+    <li>
+      <span class="e-title">{{ c.course }}</span>
+      <span class="e-meta">{{ c.school }}</span>
+      <span class="e-terms">{{ c.terms }}</span>
+    </li>
+    {%- endfor %}
+  </ul>
+</section>
+{%- endfor %}

@@ -1,0 +1,110 @@
+{%- comment -%}
+  One research item. Usage: {% include paper.html paper=p %}
+  The title row (title, coauthors, status/journal, year) is always visible.
+  Abstract, presentations, notes, press and links sit in the drop-down.
+{%- endcomment -%}
+{%- assign p = include.paper -%}
+{%- assign id = p.id | default: p.title | slugify -%}
+
+{%- assign has_body = false -%}
+{%- if p.abstract or p.talks or p.notes or p.press or p.links -%}
+  {%- assign has_body = true -%}
+{%- endif -%}
+
+{%- assign meta = "" | split: "" -%}
+{%- if p.coauthors and p.coauthors.size > 0 -%}
+  {%- assign n = p.coauthors.size -%}
+  {%- capture with -%}
+    with {% for a in p.coauthors -%}
+      {%- unless forloop.first -%}
+        {%- if forloop.last -%}{% if n > 2 %},{% endif %} and {% else %}, {% endif -%}
+      {%- endunless -%}
+      {{ a }}
+    {%- endfor -%}
+  {%- endcapture -%}
+  {%- assign meta = meta | push: with -%}
+{%- endif -%}
+{%- if p.status or p.journal -%}
+  {%- capture venue -%}
+    {%- if p.status -%}<span class="status">{{ p.status }}</span>{%- endif -%}
+    {%- if p.status and p.journal -%}{{ ", " }}{%- endif -%}
+    {%- if p.journal -%}
+      <cite>{{ p.journal }}</cite>
+      {%- if p.volume %}&nbsp;{{ p.volume }}{% if p.issue %}({{ p.issue }}){% endif %}{% endif -%}
+    {%- endif -%}
+  {%- endcapture -%}
+  {%- assign meta = meta | push: venue -%}
+{%- endif -%}
+{%- if p.year -%}
+  {%- capture date -%}{% if p.month %}{{ p.month }} {% endif %}{{ p.year }}{%- endcapture -%}
+  {%- assign meta = meta | push: date -%}
+{%- endif -%}
+
+{%- capture head -%}
+<span class="p-head">
+  <span class="p-title">{{ p.title }}</span>
+  {%- if meta.size > 0 %}
+  <span class="p-meta">{{ meta | join: '<span class="sep" aria-hidden="true">&nbsp;· </span>' }}</span>
+  {%- endif %}
+</span>
+{%- if p.url or p.working_paper %}
+<span class="p-actions">
+  {%- if p.url %}
+  <a class="p-link" href="{{ p.url }}">Paper</a>
+  {%- endif %}
+  {%- if p.working_paper %}
+  <a class="p-link" href="{{ p.working_paper }}">Working Paper</a>
+  {%- endif %}
+</span>
+{%- endif -%}
+{%- endcapture -%}
+
+{%- if has_body %}
+<details class="paper" id="{{ id }}">
+  <summary>
+    <svg class="chev" viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3.5 10.5 8 6 12.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    {{ head }}
+  </summary>
+  <div class="p-body">
+    {%- if p.abstract %}
+    <div class="abstract">{{ p.abstract | markdownify }}</div>
+    {%- endif %}
+    {%- if p.talks or p.press or p.notes %}
+    <dl class="p-details">
+      {%- if p.talks %}
+      <dt>Presentations</dt>
+      <dd>
+        <ul class="talks">
+          {%- for t in p.talks %}
+          <li><span class="yr">{{ t[0] }}</span><span>{{ t[1] }}</span></li>
+          {%- endfor %}
+        </ul>
+      </dd>
+      {%- endif %}
+      {%- if p.press %}
+      <dt>Press</dt>
+      <dd>{{ p.press | markdownify | remove: '<p>' | remove: '</p>' }}</dd>
+      {%- endif %}
+      {%- if p.notes %}
+      <dt>Notes</dt>
+      <dd>{{ p.notes | markdownify | remove: '<p>' | remove: '</p>' }}</dd>
+      {%- endif %}
+    </dl>
+    {%- endif %}
+    {%- if p.links %}
+    <ul class="p-links">
+      {%- for l in p.links %}
+      <li><a href="{{ l.url }}">{{ l.label }}</a></li>
+      {%- endfor %}
+    </ul>
+    {%- endif %}
+  </div>
+</details>
+{%- else %}
+<div class="paper static" id="{{ id }}">
+  <div class="row">
+    <span class="chev" aria-hidden="true"></span>
+    {{ head }}
+  </div>
+</div>
+{%- endif %}

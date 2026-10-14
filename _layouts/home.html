@@ -1,0 +1,21 @@
+---
+layout: default
+---
+{%- assign profile = site.data.profile -%}
+<section class="intro">
+  <img class="headshot" src="{{ '/assets/img/headshot.jpg' | relative_url }}" alt="Portrait of {{ site.title }}" width="720" height="960">
+  <div class="intro-text">
+    <h1>{{ site.title }}</h1>
+    {%- if profile.affiliation %}
+    <p class="affiliation">{{ profile.affiliation }}</p>
+    {%- endif %}
+    <div class="bio">
+      {{ content }}
+    </div>
+    <ul class="link-row">
+      {%- for l in profile.links %}
+      <li><a class="btn" href="{{ l.url }}">{{ l.label }}</a></li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>
