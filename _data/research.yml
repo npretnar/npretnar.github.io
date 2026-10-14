@@ -12,9 +12,10 @@
 #   status      e.g. "Revise and Resubmit", "Under Review", "Presenting"
 #   journal     Publishing journal, or target journal for R&Rs / submissions
 #   volume, issue
-#   url         Link to the paper itself; shown as "Paper" in the collapsed row
-#   working_paper  Link to a working-paper version; shown as "Working Paper"
-#               next to "Paper" (e.g. when the journal version is paywalled)
+#   url         Published (journal) version; shown as a "Paper" button
+#   working_paper  Working-paper PDF; shown as a "Working Paper" button.
+#               Unpublished papers use only this. On acceptance, keep it and
+#               add url: for the journal version.
 #   abstract    Markdown. Use ">-" and indent the text below it.
 #   talks       Presentations, keyed by year (newest first)
 #   press, notes  Markdown
@@ -167,7 +168,7 @@ sections:
         status: Under Review
         journal: Journal of Political Economy Macroeconomics
         year: 2026
-        url: /papers/long-run-development-with-capital.pdf
+        working_paper: /papers/long-run-development-with-capital.pdf
         abstract: >-
           This paper offers a unified framework for understanding long-run
           growth across the pre-industrial, transitional, and industrial eras.
@@ -200,7 +201,7 @@ sections:
         status: Under Review
         journal: Journal of Economic Behavior & Organization
         year: 2026
-        url: /papers/mental-accounting-two-stage-budgeting.pdf
+        working_paper: /papers/mental-accounting-two-stage-budgeting.pdf
         abstract: >-
           We propose a model that generalizes two-stage budgeting to
           incorporate frictions which induce budgetary stickiness and mental
@@ -237,7 +238,7 @@ sections:
         status: Revise and Resubmit
         journal: International Economic Review
         year: 2025
-        url: /papers/structural-change-with-time-to-consume.pdf
+        working_paper: /papers/structural-change-with-time-to-consume.pdf
         abstract: >-
           We explore the relationship between household time-use and the
           long-run rise in the services share of expenditure. Using the
@@ -508,7 +509,7 @@ sections:
       - title: Durables, Non-Durables, and a Structural Test of Fungibility
         coauthors: [Alan Montgomery, Christopher Y. Olivola]
         year: 2018
-        url: /papers/durables-non-durables-fungibility.pdf
+        working_paper: /papers/durables-non-durables-fungibility.pdf
         abstract: >-
           In his 1999 summary of all things mental accounting, Richard Thaler
           describes one of the primary components of mental accounting as the

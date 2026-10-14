@@ -31,7 +31,9 @@ needs touching for routine updates.
 
 **R&R → accepted** — cut the paper's block, paste it under
 `Publications and Accepted Papers`, delete `status:`, and fill in
-`journal`, `volume`, `issue`, `month`, `year`.
+`journal`, `volume`, `issue`, `month`, `year`. Keep its `working_paper:` link
+and add `url:` pointing at the journal's page; the paper then shows both a
+**Paper** and a **Working Paper** button.
 
 **New paper** — copy an existing block and edit it. Only `title` is required.
 Leave out any field you don't need; the page adapts.
@@ -51,7 +53,8 @@ undated, so a link never changes when you post a revision:
 
 - **Revised draft:** replace the file, keeping the same name.
 - **New paper:** add `papers/some-short-name.pdf` and set
-  `url: /papers/some-short-name.pdf` on the paper in `_data/research.yml`.
+  `working_paper: /papers/some-short-name.pdf` on the paper in
+  `_data/research.yml`.
 
 ## Editing without installing anything
 
