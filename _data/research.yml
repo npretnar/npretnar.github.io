@@ -92,6 +92,39 @@ sections:
   - title: New Work (incl. R&R's)
     id: new-work
     papers:
+      - title: Sexual Hegemons and Involuntary Celibates
+        status: Presenting
+        year: 2026
+        abstract: >-
+          Heterosexual couple formation has fallen in the developed world at
+          the same time that new technologies, such as dating apps, have
+          seemingly reduced search frictions. I study a two-sided
+          directed-search model of dating where agents differ in labor-market
+          productivity and sexual desirability. Men sort on similarity and thus
+          have conditionally non-monotonic preferences for females across
+          types. Female preferences are monotonic in male quality. Without
+          frictions, matching is assortative and male inequality reflects
+          attributes. When the sexes' type distributions differ, surplus types
+          match less often; a surplus of high-type women deepens male
+          inequality. Costly contact makes match rates diverge: women contact
+          desirable men more readily. Unobservable attributes pool male types,
+          so rejecting a man buys a chance of someone better: every woman
+          rejects men below one common cutoff. Were types visible, rejection
+          would only mean waiting for another like him, so none would be
+          excluded. Involuntary celibacy is thus an information problem, while
+          concentration is a turnover problem where a few men dominate matching
+          only if break-ups return them to the market. As contact costs
+          decline women have more options, so they screen harder and marginal
+          men stop matching. Dating platforms thus allow agents to learn who is
+          available from encounters skewed directly by their own choices, so
+          standards drift high. A dating market platform that profits when
+          users keep searching would choose every distortion the model
+          identifies to maximize engagement. Meanwhile, a planner who seeks to
+          minimize male welfare inequality would force negative assortative
+          matching, suggesting the dating-app-driven market equilibrium is
+          inefficient relative to abstract theses from the anthropology
+          literature.
+          
       - title: Elder Care in General Equilibrium
         coauthors: [Finn Kydland, Tonya Kydland]
         status: Presenting
@@ -305,39 +338,6 @@ sections:
         links:
           - label: ATUS/CEX/NIPA classification crosswalk
             url: https://docs.google.com/spreadsheets/d/1dNVbu62PzijdbDSNQw83ANvSkJH3Z4zg/edit?usp=share_link&ouid=103864238705331262948&rtpof=true&sd=true
-
-      - title: Sexual Hegemons and Involuntary Celibates
-        status: Working Model Written; Simple Welfare Results Calculated
-        year: 2026
-        abstract: >-
-          Heterosexual couple formation has fallen in the developed world at
-          the same time that new technologies, such as dating apps, have
-          seemingly reduced search frictions. I study a two-sided
-          directed-search model of dating where agents differ in labor-market
-          productivity and sexual desirability. Men sort on similarity and thus
-          have conditionally non-monotonic preferences for females across
-          types. Female preferences are monotonic in male quality. Without
-          frictions, matching is assortative and male inequality reflects
-          attributes. When the sexes' type distributions differ, surplus types
-          match less often; a surplus of high-type women deepens male
-          inequality. Costly contact makes match rates diverge: women contact
-          desirable men more readily. Unobservable attributes pool male types,
-          so rejecting a man buys a chance of someone better: every woman
-          rejects men below one common cutoff. Were types visible, rejection
-          would only mean waiting for another like him, so none would be
-          excluded. Involuntary celibacy is thus an information problem, while
-          concentration is a turnover problem where a few men dominate matching
-          only if break-ups return them to the market. As contact costs
-          decline women have more options, so they screen harder and marginal
-          men stop matching. Dating platforms thus allow agents to learn who is
-          available from encounters skewed directly by their own choices, so
-          standards drift high. A dating market platform that profits when
-          users keep searching would choose every distortion the model
-          identifies to maximize engagement. Meanwhile, a planner who seeks to
-          minimize male welfare inequality would force negative assortative
-          matching, suggesting the dating-app-driven market equilibrium is
-          inefficient relative to abstract theses from the anthropology
-          literature.
 
       - title: Retirement Financing and Social Security Solvency in General Equilibrium
         coauthors: [Santiago Lisa]
