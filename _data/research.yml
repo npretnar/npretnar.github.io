@@ -92,7 +92,7 @@ sections:
   - title: New Work (incl. R&R's)
     id: new-work
     papers:
-        - title: "Aging and Structural Change: Cost Disease in the Care Sector"
+      - title: "Aging and Structural Change: Cost Disease in the Care Sector"
         coauthors: [Finn Kydland, Tonya Kydland]
         status: Presenting
         year: 2026
