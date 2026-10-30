@@ -92,29 +92,12 @@ sections:
   - title: New Work (incl. R&R's)
     id: new-work
     papers:
-      - title: Sexual Hegemons and Involuntary Celibates
-        status: Presenting
-        year: 2026
-        abstract: >-
-          Heterosexual couple formation has fallen in the United States even as dating apps have seemingly made search cheaper. I study a two-sided directed-search model of dating in which agents differ in productivity and desirability. Men sort on similarity; women's preferences are monotone in male quality, so all women share one ranking of men. With balanced type mixes and numbers, free contact, and visible types, matching is assortative and, if mismatches are costly enough, male inequality is only a result of differences in their own primitive attributes. Unequal type mixes make surplus types match less often; when women are over-represented at the top and men at the bottom, the longest waits fall on the less advantaged men. Costly contact makes match rates diverge, as women contact desirable men more readily, and break-ups, by returning men to the market, turn divergent rates into sexual hegemons --- men who match again and again --- while longer-lasting matches even out men's shares of matches. When attributes are hidden, men of different types end up pooled in the same queue, whose composition women know but whose members they cannot tell apart without screening, so rejecting a man buys a chance of someone better. Since women share one monotone ranking of men by both productivity and desirability, a man pooled with better men can fall below women's shared cutoff and is then rejected once his type is revealed: this is involuntary celibacy. Were types visible ex-ante, rejecting him would only mean waiting for another man just like him, so no one would be excluded: involuntary celibacy, in which a man matches only occasionally and only by mistake, is an information problem. Cheaper contact raises every man's match rate where types are visible. Where types are hidden, its direct effect, holding fixed who is still searching, is to give women more options and raise their cutoffs above marginal men, though the pool's response can push back. Women who judge who is available by the men they encounter, a sample skewed by ranked feeds and their own choices, set standards too high, and nothing they see corrects them. Publishing the exact composition of the men still searching would, holding that pool fixed, lower those standards, but a platform that earns more the longer users keep searching, as many dating apps plausibly do, prefers hidden types, no disclosure, and a skewed feed. A planner minimizing the dispersion of male welfare would compensate rather than sort wherever that lowers the dispersion, favoring the men the market leaves worst off; there, the market's allocation is the reverse of the optimum.
-          
-      - title: Elder Care in General Equilibrium
+        - title: Aging and Structural Change: Cost Disease in the Care Sector
         coauthors: [Finn Kydland, Tonya Kydland]
         status: Presenting
         year: 2026
         abstract: >-
-          Elder-care demand depends on aging and dependency shocks; over
-          1990--2020, falling dependency nearly offset U.S. aging. With formal
-          markets and informal transfers supplying care, demand changes affect
-          each channel differently. We estimate aggregate substitution
-          elasticities in a two-sector general-equilibrium overlapping-generations
-          model: formal and informal care are weak complements, care and other
-          consumption strong ones, so formal care's spending share rises with
-          its price. Negative nursing TFP growth, not demography, raised formal
-          care's relative price, drew inputs into nursing, and shifted care
-          toward informal caregivers. Concerns that aging slows growth are
-          misplaced if either strong-sector technology grows robustly or
-          natality improves.
+          For most of the service sector, market productivity growth has pulled production out of the home. We show that formal nursing care is an exception because its productivity growth has been negative. A two-sector general equilibrium overlapping generations model with informal care, calibrated to 1990--2020 U.S. data, attributes the rise in formal care's relative price to this decline, not demography. Care/non-care complementarity dominates formal/informal complementarity. As formal prices rise, elders substitute non-care consumption for formal care, shifting care onto informal caregivers. Aging need not slow growth if non-care productivity rises or entering cohorts grow, and its effects are offset by declining care needs.
         talks:
           2026: >-
             Concordia University; Hitotsubashi University; The University of Hong Kong (HKU); Peking
@@ -128,10 +111,16 @@ sections:
           Populations* (2019); NPR's The Confluence, 90.5 WESA, Pittsburgh
           (June 30, 2023).
         notes: >-
-          Previous version is [NBER Working Paper
+          Companion paper is [NBER Working Paper
           \#25498](/papers/costs-and-benefits-of-caring-nber-w25498.pdf),
           entitled *The Costs and Benefits of Caring: Aggregate Burdens of an
-          Aging Population*.
+          Aging Population*. This project was also presented under the title *Elder Care in General Equilibrium.*
+          
+      - title: Sexual Hegemons and Involuntary Celibates
+        status: Presenting
+        year: 2026
+        abstract: >-
+          Heterosexual couple formation has fallen in the United States even as dating apps have seemingly made search cheaper. I study a two-sided directed-search model of dating in which agents differ in productivity and desirability. Men sort on similarity; women's preferences are monotone in male quality, so all women share one ranking of men. With balanced type mixes and numbers, free contact, and visible types, matching is assortative and, if mismatches are costly enough, male inequality is only a result of differences in their own primitive attributes. Unequal type mixes make surplus types match less often; when women are over-represented at the top and men at the bottom, the longest waits fall on the less advantaged men. Costly contact makes match rates diverge, as women contact desirable men more readily, and break-ups, by returning men to the market, turn divergent rates into sexual hegemons --- men who match again and again --- while longer-lasting matches even out men's shares of matches. When attributes are hidden, men of different types end up pooled in the same queue, whose composition women know but whose members they cannot tell apart without screening, so rejecting a man buys a chance of someone better. Since women share one monotone ranking of men by both productivity and desirability, a man pooled with better men can fall below women's shared cutoff and is then rejected once his type is revealed: this is involuntary celibacy. Were types visible ex-ante, rejecting him would only mean waiting for another man just like him, so no one would be excluded: involuntary celibacy, in which a man matches only occasionally and only by mistake, is an information problem. Cheaper contact raises every man's match rate where types are visible. Where types are hidden, its direct effect, holding fixed who is still searching, is to give women more options and raise their cutoffs above marginal men, though the pool's response can push back. Women who judge who is available by the men they encounter, a sample skewed by ranked feeds and their own choices, set standards too high, and nothing they see corrects them. Publishing the exact composition of the men still searching would, holding that pool fixed, lower those standards, but a platform that earns more the longer users keep searching, as many dating apps plausibly do, prefers hidden types, no disclosure, and a skewed feed. A planner minimizing the dispersion of male welfare would compensate rather than sort wherever that lowers the dispersion, favoring the men the market leaves worst off; there, the market's allocation is the reverse of the optimum.
 
       - title: Unbalanced Growth Across Sectors and Space
         coauthors: [Kausthub Satluri]
