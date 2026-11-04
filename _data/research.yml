@@ -26,7 +26,7 @@
 
 upcoming: >-
   The Chinese University of Hong Kong, Shenzhen; GRIPS, Tokyo; LACEA, Lima,
-  Peru; Indiana University, Kelley BEPP
+  Peru
 
 sections:
   - title: Publications and Accepted Papers
@@ -121,7 +121,10 @@ sections:
         year: 2026
         abstract: >-
           Heterosexual couple formation has fallen in the United States even as dating apps have seemingly made search cheaper. I study a two-sided directed-search model of dating in which agents differ in productivity and desirability. Men sort on similarity; women's preferences are monotone in male quality, so all women share one ranking of men. With balanced type mixes and numbers, free contact, and visible types, matching is assortative and, if mismatches are costly enough, male inequality is only a result of differences in their own primitive attributes. Unequal type mixes make surplus types match less often; when women are over-represented at the top and men at the bottom, the longest waits fall on the less advantaged men. Costly contact makes match rates diverge, as women contact desirable men more readily, and break-ups, by returning men to the market, turn divergent rates into sexual hegemons --- men who match again and again --- while longer-lasting matches even out men's shares of matches. When attributes are hidden, men of different types end up pooled in the same queue, whose composition women know but whose members they cannot tell apart without screening, so rejecting a man buys a chance of someone better. Since women share one monotone ranking of men by both productivity and desirability, a man pooled with better men can fall below women's shared cutoff and is then rejected once his type is revealed: this is involuntary celibacy. Were types visible ex-ante, rejecting him would only mean waiting for another man just like him, so no one would be excluded: involuntary celibacy, in which a man matches only occasionally and only by mistake, is an information problem. Cheaper contact raises every man's match rate where types are visible. Where types are hidden, its direct effect, holding fixed who is still searching, is to give women more options and raise their cutoffs above marginal men, though the pool's response can push back. Women who judge who is available by the men they encounter, a sample skewed by ranked feeds and their own choices, set standards too high, and nothing they see corrects them. Publishing the exact composition of the men still searching would, holding that pool fixed, lower those standards, but a platform that earns more the longer users keep searching, as many dating apps plausibly do, prefers hidden types, no disclosure, and a skewed feed. A planner minimizing the dispersion of male welfare would compensate rather than sort wherever that lowers the dispersion, favoring the men the market leaves worst off; there, the market's allocation is the reverse of the optimum.
-
+        talks:
+          2026: >-
+            Indiana University, Kelley BEPP
+            
       - title: Unbalanced Growth Across Sectors and Space
         coauthors: [Kausthub Satluri]
         status: Presenting
