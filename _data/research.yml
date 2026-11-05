@@ -271,6 +271,19 @@ sections:
   - title: Working Papers
     id: working-papers
     papers:
+      - title: Growth and Ramsey Optimality in a Multi-sector Model with Finite-lived Agents
+        coauthors: [Eungsik Kim, Stephen Spear]
+        status: Preparing for Invited Submission to Special Issue of Macroeconomic Dynamics
+        year: 2026
+
+      - title: Retirement Financing and Social Security Solvency in General Equilibrium
+        coauthors: [Kathleen McKiernan, Santiago Lisa]
+        status: Data Work and Model Computation Ongoing
+        year: 2026
+        notes: >-
+          A preliminary draft can be requested by clicking
+          [here](https://drive.google.com/file/d/1hdIwFBHEnThaf0tUqdoZOg_Drv1_87IF/view?usp=share_link).
+          
       - title: Measuring Inequality with Consumption Time
         year: 2025
         abstract: >-
@@ -303,17 +316,6 @@ sections:
           - label: ATUS/CEX/NIPA classification crosswalk
             url: https://docs.google.com/spreadsheets/d/1dNVbu62PzijdbDSNQw83ANvSkJH3Z4zg/edit?usp=share_link&ouid=103864238705331262948&rtpof=true&sd=true
 
-      - title: Retirement Financing and Social Security Solvency in General Equilibrium
-        coauthors: [Kathleen McKiernan, Santiago Lisa]
-        status: Data Work and Model Computation Ongoing
-        year: 2026
-        notes: >-
-          A preliminary draft can be requested by clicking
-          [here](https://drive.google.com/file/d/1hdIwFBHEnThaf0tUqdoZOg_Drv1_87IF/view?usp=share_link).
-
-      - title: College Football Labor Markets and the Production of Wins
-        year: 2025
-
       - title: One Production Function
         coauthors: [Ákos Valentinyi]
         year: 2025
@@ -342,6 +344,9 @@ sections:
   - title: Works in Progress
     id: in-progress
     papers:
+      - title: College Football Labor Markets and the Production of Wins
+        year: 2026
+        
       - title: Real Business Cycles with Non-aligned Expectations
         coauthors: [Georg Duernecker]
         status: Model in Development
