@@ -307,24 +307,6 @@ sections:
         coauthors: [Kathleen McKiernan, Santiago Lisa]
         status: Data Work and Model Computation Ongoing
         year: 2026
-        abstract: >-
-          We develop an overlapping generations model with two productive
-          sectors, a financial intermediary, and a detailed tax system that
-          distinguishes between realized and unrealized capital gains through
-          cost-basis tracking. This preliminary draft calibrates to the 1975
-          U.S. economy, before modern retirement tax incentives, to study how
-          mandatory retirement contributions and wealth taxation reshape
-          life-cycle savings, labor supply, and Social Security financing.
-          Given the size of the state space, our model solution and
-          computational procedures require modifying the Deep Equilibrium Nets
-          routine of Azinovic, Gaegauf, and Scheidegger (2022) to introduce
-          reinforcement learning to optimize the neural network learning rate.
-          In preliminary simulations we find that introducing 5 percent
-          retirement contributions crowds out taxable savings by 25 percent
-          while modestly raising labor supply. A 10 percent wealth tax on
-          deposits triples savings and increases hours by 27 percent as
-          households work to rebuild eroded wealth, sharply contrasting the
-          behavioral response to realization-based capital gains taxes.
         notes: >-
           A preliminary draft can be requested by clicking
           [here](https://drive.google.com/file/d/1hdIwFBHEnThaf0tUqdoZOg_Drv1_87IF/view?usp=share_link).
