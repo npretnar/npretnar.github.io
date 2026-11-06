@@ -94,10 +94,12 @@ sections:
     papers:
       - title: "Aging and Structural Change: Cost Disease in the Care Sector"
         coauthors: [Finn Kydland, Tonya Kydland]
-        status: Presenting
+        status: Under Review
+        journal: Journal of Political Economy
         year: 2026
+        working_paper: /papers/
         abstract: >-
-          For most of the service sector, market productivity growth has pulled production out of the home. We show that formal nursing care is an exception because its productivity growth has been negative. A two-sector general equilibrium overlapping generations model with informal care, calibrated to 1990--2020 U.S. data, attributes the rise in formal care's relative price to this decline, not demography. Care/non-care complementarity dominates formal/informal complementarity. As formal prices rise, elders substitute non-care consumption for formal care, shifting care onto informal caregivers. Aging need not slow growth if non-care productivity rises or entering cohorts grow, and its effects are offset by declining care needs.
+          For most of the service sector, market productivity growth has pulled production out of the home. We show that formal nursing care is an exception because its productivity growth has been negative. A two-sector general equilibrium overlapping generations model with informal care attributes the rise in formal care's relative price to this decline, not demography. Care/non-care complementarity dominates formal/informal complementarity. As formal prices rise, elders substitute non-care consumption for formal care, shifting care onto informal caregivers. Population aging need not slow growth if non-care productivity rises or entering cohorts grow and its effects are offset by declining care needs.
         talks:
           2026: >-
             Concordia University; Hitotsubashi University; The University of Hong Kong (HKU); Peking
