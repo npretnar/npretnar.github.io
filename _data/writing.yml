@@ -1,0 +1,22 @@
+# Popular writing, shown on the Media page under Media Appearances.
+#
+# Each section becomes a "Popular Writing – <section>" heading. Posts appear
+# in the order listed (newest first). "subtitle" is optional. Quote any
+# title that contains ": ".
+
+- section: Culture & Economics
+  posts:
+    - title: Jensen’s Wang or Whatever ...
+      subtitle: Convex narrative transformation as a big tech takedown
+      date: November 13, 2026
+      url: https://npretnar.substack.com/p/jensens-wang-or-whatever
+
+- section: College Football
+  posts:
+    - title: In College Football Pre-season Perception Bias Never Goes Away
+      subtitle: >-
+        If voters, pundits, etc. believe at the beginning of the season that a
+        certain set of teams or a conference is better than another, then I
+        show mathematically this will always lead to biased outcomes.
+      date: November 14, 2026
+      url: https://npretnar.substack.com/p/in-college-football-pre-season-perception

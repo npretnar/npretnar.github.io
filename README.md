@@ -15,6 +15,7 @@ needs touching for routine updates.
 | Courses                          | `_data/teaching.yml`          |
 | Conferences                      | `_data/conferences.yml`       |
 | Media appearances                | `_data/media.yml`             |
+| Popular writing (Substack posts) | `_data/writing.yml`           |
 | Nav menu                         | `nav:` in `_config.yml`       |
 | Headshot                         | `assets/img/headshot.jpg`     |
 | Look and feel                    | `assets/css/style.css`        |

@@ -92,6 +92,11 @@ sections:
   - title: New Work (incl. R&R's)
     id: new-work
     papers:
+      - title: Retirement Financing and Social Security Solvency in General Equilibrium
+        coauthors: [Kathleen McKiernan, Santiago Lisa]
+        status: Presenting
+        year: 2026
+
       - title: "Aging and Structural Change: Cost Disease in the Care Sector"
         coauthors: [Finn Kydland, Tonya Kydland]
         status: Under Review
@@ -281,14 +286,6 @@ sections:
         status: Preparing for Invited Submission to Special Issue of Macroeconomic Dynamics
         year: 2026
 
-      - title: Retirement Financing and Social Security Solvency in General Equilibrium
-        coauthors: [Kathleen McKiernan, Santiago Lisa]
-        status: Data Work and Model Computation Ongoing
-        year: 2026
-        notes: >-
-          A preliminary draft can be requested by clicking
-          [here](https://drive.google.com/file/d/1hdIwFBHEnThaf0tUqdoZOg_Drv1_87IF/view?usp=share_link).
-          
       - title: Measuring Inequality with Consumption Time
         year: 2025
         abstract: >-

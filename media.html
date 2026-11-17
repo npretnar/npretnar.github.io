@@ -18,3 +18,20 @@ permalink: /media/
     {%- endfor %}
   </ul>
 </section>
+
+{%- for g in site.data.writing %}
+<section class="list-section">
+  <h2>Popular Writing – {{ g.section | escape }}</h2>
+  <ul class="entries">
+    {%- for p in g.posts %}
+    <li>
+      <span class="e-title"><a href="{{ p.url }}">{{ p.title }}</a></span>
+      {%- if p.subtitle %}
+      <span class="e-meta">{{ p.subtitle }}</span>
+      {%- endif %}
+      <span class="e-terms">{{ p.date }}</span>
+    </li>
+    {%- endfor %}
+  </ul>
+</section>
+{%- endfor %}
