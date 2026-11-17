@@ -4,14 +4,6 @@
 # past: grouped by year, newest first. Each title links to its program.
 
 upcoming:
-  - title: 5th Annual Junior Workshop in Macroeconomics
-    dates: October 30–31, 2026
-    location: Santa Barbara, CA, USA
-    coorganizers: Job Boerma (University of Wisconsin, Madison), Paolo Martellini (NYU, Stern)
-    program: >-
-      Conference details can be found
-      [here](https://laef.ucsb.edu/events/5th-annual-junior-workshop-macroeconomics).
-
   - title: 2nd LAEF-HKU Joint Conference on Growth and Inequality
     dates: December 4–5, 2026
     location: Hong Kong
@@ -43,9 +35,22 @@ upcoming:
       Shengxing Zhang (CMU, Tepper)
     program: The call for papers will open in winter of 2026/2027.
 
+  - title: Workshop on Families and Intergenerational Macroeconomics
+    dates: May 21–22, 2027
+    location: Santa Barbara, CA, USA
+    coorganizers: Diego Daruich (USC)
+    program: >-
+      Conference details can be found
+      [here](https://laef.ucsb.edu/events/workshop-families-and-intergenerational-macroeconomics).
+      The call for papers is available by [clicking
+      here](https://editorialexpress.com/conference/FamilyLAEF/), and is open
+      until January 15, 2027.
+
 past:
   - year: 2026
     events:
+      - title: 5th Annual Junior Workshop in Macroeconomics
+        url: https://laef.ucsb.edu/events/5th-annual-junior-workshop-macroeconomics
       - title: Growth, Inequality, and Macro Development
         url: https://laef.ucsb.edu/events/growth-inequality-and-macro-development
       - title: XXIX Workshop on Dynamic Macroeconomics
