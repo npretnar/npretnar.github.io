@@ -25,8 +25,7 @@
 # drop-down until the visitor expands the paper.
 
 upcoming: >-
-  The Chinese University of Hong Kong, Shenzhen; GRIPS, Tokyo; LACEA, Lima,
-  Peru; Emory University
+  The Chinese University of Hong Kong, Shenzhen; GRIPS, Tokyo; Emory University
 
 sections:
   - title: Publications and Accepted Papers
@@ -96,6 +95,9 @@ sections:
         coauthors: [Kathleen McKiernan, Santiago Lisa]
         status: Presenting
         year: 2026
+        talks: 
+          2026: >-
+            LACEA, Lima, Peru
 
       - title: "Aging and Structural Change: Cost Disease in the Care Sector"
         coauthors: [Finn Kydland, Tonya Kydland]
@@ -118,7 +120,7 @@ sections:
           Populations* (2019); NPR's The Confluence, 90.5 WESA, Pittsburgh
           (June 30, 2023).
         notes: >-
-          Companion paper is [NBER Working Paper
+          Current version is [NBER Working Paper \#36024](/papers/w36024.pdf). Companion paper is [NBER Working Paper
           \#25498](/papers/costs-and-benefits-of-caring-nber-w25498.pdf),
           entitled *The Costs and Benefits of Caring: Aggregate Burdens of an
           Aging Population*. This project was also presented under the title *Elder Care in General Equilibrium.*
